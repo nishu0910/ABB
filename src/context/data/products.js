@@ -1,0 +1,42 @@
+export const products = [
+    {
+      name: 'Sony Black Headphones',
+      id: Date.now()+1,
+      image: 'https://via.placeholder.com/300x200.png',
+      minimumBid: 100,
+      currentBid: 157,
+      endTime: '1 day 12 hrs 43 minutes',
+    },
+    {
+      name: 'Sony Black Headphones',
+      id: Date.now()+2,
+      image: 'https://via.placeholder.com/300x200.png',
+      minimumBid: 100,
+      currentBid: 157,
+      endTime: '1 day 12 hrs 43 minutes',
+    },
+    {
+      name: 'Sony Black Headphones',
+      id: Date.now()+3,
+      image: 'https://via.placeholder.com/300x200.png',
+      minimumBid: 100,
+      currentBid: 157,
+      endTime: '1 day 12 hrs 43 minutes',
+    },
+    {
+      name: 'Sony Black Headphones',
+      id: Date.now()+4,
+      image: 'https://via.placeholder.com/300x200.png',
+      minimumBid: 100,
+      currentBid: 157,
+      endTime: '1 day 12 hrs 43 minutes',
+    },
+    {
+      name: 'Sony Black Headphones',
+      id: Date.now(),
+      image: 'https://via.placeholder.com/300x200.png',
+      minimumBid: 100,
+      currentBid: 157,
+      endTime: '1 day 12 hrs 43 minutes',
+    },
+  ];

@@ -1,0 +1,78 @@
+.auction-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .product-card {
+    margin: 20px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .product-details {
+    padding: 20px;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .bid-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .bid-price {
+    margin-bottom: 10px;
+  }
+  
+  .bid-label {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .bid-amount {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .bid-timer {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .bid-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .bid-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .bid-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
